@@ -44,3 +44,4 @@ if err := category.AppendChild(&category, parentID); err != nil {
 ```go
 category.RemoveNode(&rmCategory)
 ```
+### 特别说明，扩展默认需要模型中存在name和title字段，如想添加其他字段，请另行添加
